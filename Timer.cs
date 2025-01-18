@@ -11,8 +11,6 @@ public class Timer : MonoBehaviour
     void Update()
     {
         seconds -= Time.deltaTime;
-        print(minutes);
-        print(seconds);
 
         if (seconds<0)
         {
